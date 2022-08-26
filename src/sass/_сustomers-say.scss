@@ -1,0 +1,48 @@
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+.сustomers__container {
+  margin: 0;
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+
+  background-image: url(../images/сustomers-say/rectangle.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.customers__stars-container {
+  background-color: white;
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.customers__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: calc(33 / 28);
+
+  color: #2c2c2c;
+}
+.customers__title-position {
+  margin-bottom: 20px;
+}
+.customemers__sub-title {
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #2c2c2c;
+}
