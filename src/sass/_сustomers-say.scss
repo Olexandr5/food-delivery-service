@@ -18,28 +18,59 @@ body {
 }
 
 .сustomers__container {
-  
   padding-top: 60px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 50px;
-
-  background-image: url(../images/сustomers-say/rectangle.png);
+  margin-left: auto;
+  margin-right: auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
 
+  // background-image: url(../images/сustomers-say/Rectangle\ 701.jpg);
+  
+  
+
+  @media screen and (min-width: 768px) {
+    // background-image: url(../images/сustomers-say/rectangle-320.png);
+    padding-top: 60px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 115px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  // @media screen and (min-width: 1280px) {
+  //   background-image: url(../images/сustomers-say/rectangle-1280.png);
+  //   padding-top: 60px;
+  //   padding-left: 32px;
+  //   padding-right: 32px;
+  //   padding-bottom: 115px;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  // }
+}
+.customers__stars-container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 32px;
+  }
+}
 .customers__stars {
   background-color: white;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  max-width: 280px;
+
   padding-left: 8px;
   padding-top: 8px;
   padding-bottom: 10px;
   padding-right: 8px;
+  @media screen and (min-width: 768px) {
+    width: 336px;
+    height: 244px;
+  }
 }
 .customers__stars:not(:last-child) {
   margin-bottom: 28px;
@@ -81,13 +112,12 @@ body {
 .customers__user {
   display: flex;
   align-items: center;
-  
 }
-.customers__user-position{
-  border-right: 1px solid #7EB101;
+.customers__user-position {
+  border-right: 1px solid #7eb101;
 }
-.customers__user-img{
-margin-right: 16px;
+.customers__user-img {
+  margin-right: 16px;
 }
 .customers__user-name {
   font-weight: 500;
@@ -95,17 +125,13 @@ margin-right: 16px;
   line-height: calc(15 / 14);
 
   color: #2c2c2c;
-  
+
   margin-right: 16px;
   margin-bottom: 4px;
-
 }
 .customers__user-dude {
   font-size: 14px;
-  line-height:calc(15 / 14);
+  line-height: calc(15 / 14);
 
   color: #2c2c2c;
-  
-  
-
 }
